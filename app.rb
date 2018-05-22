@@ -29,18 +29,19 @@ class App < Sinatra::Base
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
     x = params[:operation]
-binding.pry
+
     if x == "add"
-      num1 + num2
+      ans = num1 + num2
     elsif x == "subtracts"
-      num1 - num2
+      ans = num1 - num2
     elsif x == "multiply"
-      num1 * num2
+      ans = num1 * num2
     elsif x == "divide"
-      num1/num2
+      ans = num1/num2
     else
       "Enter correct operation command."
     end
+    ans
   end
 
 end
