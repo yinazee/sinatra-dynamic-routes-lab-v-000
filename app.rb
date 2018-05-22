@@ -32,7 +32,7 @@ class App < Sinatra::Base
 
     if x == "add"
       ans = num1 + num2
-    elsif x == "subtracts"
+    elsif x == "subtract"
       ans = num1 - num2
     elsif x == "multiply"
       ans = num1 * num2
