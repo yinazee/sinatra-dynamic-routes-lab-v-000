@@ -30,7 +30,7 @@ class App < Sinatra::Base
     num2 = params[:number2].to_i
     binding.pry
 
-    params[:operation] == * || + || - || /
+    # params[:operation] == * || + || - || /
   end
 
 end
