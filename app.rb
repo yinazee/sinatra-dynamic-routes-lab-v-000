@@ -29,9 +29,9 @@ class App < Sinatra::Base
   #   binding.pry
   # end
 
-  get '/say/:word1/:word2/:word3/:word4/:word5' do
-    params[[:word1],[:word2],[:word3],[:word4],[:word5]].join(" ")
-
-  end
+  # get '/say/:word1/:word2/:word3/:word4/:word5' do
+  #   params[[:word1],[:word2],[:word3],[:word4],[:word5]].join(" ")
+  #
+  # end
 
 end
