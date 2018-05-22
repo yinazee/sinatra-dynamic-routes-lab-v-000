@@ -30,13 +30,13 @@ class App < Sinatra::Base
     num2 = params[:number2].to_i
     x = params[:operation]
 
-    if params[:operation] == "add"
+    if x == "add"
       num1 + num2
-    elsif params[:operation] == "subtracts"
+    elsif x == "subtracts"
       num1 - num2
-    elsif params[:operation] == "multiply"
+    elsif x == "multiply"
       num1 * num2
-    elsif params[:operation] == "divide"
+    elsif x == "divide"
       num1/num2
     else
       "Enter correct operation command."
