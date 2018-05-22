@@ -26,6 +26,7 @@ class App < Sinatra::Base
       final_string += "#{params[:phrase]}\n"
     end
     final_string
+    binding.pry
   end
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
