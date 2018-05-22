@@ -42,6 +42,6 @@ class App < Sinatra::Base
   #     "Enter correct operation command."
   #   end
   #   ans.to_s
-  # end
+  end
 
 end
