@@ -40,8 +40,6 @@ class App < Sinatra::Base
     else
       "Enter correct operation command."
     end
-
-
   end
 
 end
