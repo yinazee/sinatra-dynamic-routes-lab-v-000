@@ -21,9 +21,8 @@ class App < Sinatra::Base
 
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
-    binding.pry
-    # @5_word_phrase = params[[:word1],[:word2],[:word3],[:word4],[:word5]].join(" ")
-    # binding.pry
+    @sentence = "#{params[:word1]}", "#{params[:word2]}", "#{params[:word3]}", "#{params[:word4]}", "#{params[:word5]}"
+    @sentence.join(" ")
   end
 
 end
